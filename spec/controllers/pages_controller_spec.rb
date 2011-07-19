@@ -27,5 +27,12 @@ describe "GET 'about'" do
     end
   end
 
+describe "GET 'help'" do
+    it "should be successful" do
+      get 'help'
+      response.should be_success
+    end
+  end
+
 
 end
